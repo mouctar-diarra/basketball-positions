@@ -13,3 +13,13 @@ The Jupyter notebook relies on publicly available, web-scraped statistics from:
 [sports-reference.com/cbb](https://www.sports-reference.com/cbb/)  
 
 This includes team roster data for NCAA Division I men’s teams.
+
+## Required Libraries & Modules
+This repository contains Jupyter Notebook code that requires the following Python libraries. To run the notebooks successfully, please ensure all dependencies are installed.
+For users with a standard Anaconda setup, most packages like `pandas`, `numpy`, `seaborn`, `matplotlib`, and `time` are included by default.  
+For packages not included by default, you can install them using `pip` in a terminal or directly in a Jupyter Notebook cell:
+
+* `pip install torch`
+* `pip install torchsummary`
+* `pip install itables`
+* `pip install beautifulsoup4`
